@@ -1,0 +1,2 @@
+class CrosswordPuzzle < ApplicationRecord
+end
