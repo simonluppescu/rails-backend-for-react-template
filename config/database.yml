@@ -18,12 +18,12 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: simon
-  password: pikachu
+  username: simon # TODO: Change this value to db username
+  password: pikachu # TODO: Change this value to db password or ENV var
 
 development:
   <<: *default
-  database: crosswords_backend_development
+  database: my_app_development # TODO: Change this to app's db name
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: crosswords_backend_production
-  username: crosswords_backend
-  password: <%= ENV['CROSSWORDS_BACKEND_DATABASE_PASSWORD'] %>
+  database: my_app_production # TODO: Change this to production db name
+  username: my_app_developer # TODO: Change this to production db username
+  password: <%= ENV['MY_APP_DATABASE_PASSWORD'] %> # TODO: Replace "MY_APP" with app's name

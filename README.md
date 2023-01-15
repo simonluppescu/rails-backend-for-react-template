@@ -1,24 +1,8 @@
-# README
+# Rails Backend for React Apps - Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a template for a Rails backend which will serve as a separate project from a React app.
 
-Things you may want to cover:
+Currently, this project has user authentication implemented.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To use this, copy the project to your directory and look for `TODO:` that show places that need to be changed
+for your particular app.
